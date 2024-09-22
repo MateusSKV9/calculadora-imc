@@ -1,0 +1,12 @@
+@media screen and (max-width: 626px) {
+    #btnMenu {
+        display: block;
+    }
+
+    #header-lista {
+        flex-direction: column;
+    }
+    #header-lista li {
+        text-align: center;
+    }
+}
