@@ -1,3 +1,10 @@
+@media screen and (max-width: 730px) {
+    #header-lista li a i {
+        display: block;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 626px) {
     #btnMenu {
         display: block;
@@ -8,5 +15,20 @@
     }
     #header-lista li {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    header h1 {
+        font-size: 1.9em;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #container-logo {
+        position: static;
+    }
+    #logo {
+        width: 80px;
     }
 }
